@@ -4,7 +4,7 @@
 
 ### Activity 1: Arithmetic Operations
 
--   Task 1: Wite a program to add two numbers and log the result to the console.
+-   Task 1: Write a program to add two numbers and log the result to the console.
 
 -   Task 2: Write a program to subtract two numbers and log the result to the console.
 
@@ -16,25 +16,25 @@
 
 ### Activity 2: Assignment Operators
 
--   Task 6: Use the operator to add a number to a variable and log the result to the console.
+-   Task 6: Use the `+=` operator to add a number to a variable and log the result to the console.
 
--   Task 7: Use the operator to subtract a number from a variable and log the result to the console.
+-   Task 7: Use the `-=` operator to subtract a number from a variable and log the result to the console.
 
 ### Activity 3: Comparison Operators
 
--   Task 8: Write a program to compare two numbers using
+-   Task 8: Write a program to compare two numbers using `>` and `<` and log the result to the console
 
--   Task 9: Write a program to compare two numbers using and and log the result to the console.
+-   Task 9: Write a program to compare two numbers using `>=` and `<=` and log the result to the console.
 
--   Task 10: Write a program to compare two numbers using and and and log the result to the console. and log the result to the console.
+-   Task 10: Write a program to compare two numbers using `==` and `===` and and log the result to the console. and log the result to the console.
 
 ### Activity 4: Logical Operators
 
--   Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
+-   Task 11: Write a program that uses the `&&` operator to combine two conditions and log the result to the console.
 
--   Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.
+-   Task 12: Write a program that uses the `||` operator to combine two conditions and log the result to the console.
 
--   Task 13: Write a program that uses the 1 operator to negate a condition and log the result to the console.
+-   Task 13: Write a program that uses the `!` operator to negate a condition and log the result to the console.
 
 ### Activity 5: Ternary Operator
 
