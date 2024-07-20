@@ -4,10 +4,11 @@ This repository contains all the solutions for 30 Days JS Challenge of Chai or C
 
 | Challenge Number | Challenge Name           | Solution Link                                                                     |
 | ---------------- | ------------------------ | --------------------------------------------------------------------------------- |
-| 1                | Variables and Data Types | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/01) |
-| 2                | Operators                | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/02) |
-| 3                | Control Structure        | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/03) |
-| 4                | Loops                    | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/04) |
-| 5                | Functions                | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/05) |
-| 6                | Array                    | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/06) |
-| 7                | Object                   | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/07) |
+| 01               | Variables and Data Types | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/01) |
+| 02               | Operators                | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/02) |
+| 03               | Control Structure        | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/03) |
+| 04               | Loops                    | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/04) |
+| 05               | Functions                | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/05) |
+| 06               | Array                    | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/06) |
+| 07               | Object                   | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/07) |
+| 08               | ES6+ Features            | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/08) |
