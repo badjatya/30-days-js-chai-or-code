@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Add a mouseover event listener to an element that changes its border color. -->
+
+		<div id="div">Hello</div>
+
+		<script>
+			const div = document.getElementById("div");
+
+			div.addEventListener("mouseover", () => {
+				div.style.borderColor = "red";
+				div.style.borderWidth = "5px";
+				div.style.borderStyle = "solid";
+			});
+		</script>
+	</body>
+</html>

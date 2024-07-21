@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Create a new li element and add it to an existing ul list. -->
+
+		<ul id="list">
+			<li>Apple</li>
+			<li>Banana</li>
+			<li>Cherry</li>
+		</ul>
+
+		<script>
+			const ul = document.getElementById("list");
+
+			const li = document.createElement("li");
+
+			li.innerHTML = "Mango";
+			ul.appendChild(li);
+		</script>
+	</body>
+</html>

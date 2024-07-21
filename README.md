@@ -12,3 +12,4 @@ This repository contains all the solutions for 30 Days JS Challenge of Chai or C
 | 06               | Array                    | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/06) |
 | 07               | Object                   | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/07) |
 | 08               | ES6+ Features            | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/08) |
+| 09               | DOM Manipulation         | [View Solution](https://github.com/badjatya/30-days-js-chai-or-code/tree/main/09) |
