@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Add a click event listener to a button that changes the text content of a paragraph. -->
+		<p>Hello, World!</p>
+		<button>Click me</button>
+
+		<script>
+			const p = document.querySelector("p");
+			const button = document.querySelector("button");
+
+			button.addEventListener("click", () => {
+				p.innerText = "Hello, Archit!";
+			});
+		</script>
+	</body>
+</html>

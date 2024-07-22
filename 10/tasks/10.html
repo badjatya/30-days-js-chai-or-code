@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+
+		<script>
+			const ul = document.querySelector("ul");
+
+			ul.addEventListener("click", (event) => {
+				if (event.target.tagName === "LI") {
+					console.log(event.target.innerText);
+				}
+			});
+
+			const li = document.createElement("li");
+			li.innerText = "Item 6";
+			ul.appendChild(li);
+		</script>
+	</body>
+</html>
