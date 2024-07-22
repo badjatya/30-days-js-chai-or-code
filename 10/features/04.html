@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Create a script that handles form submission and change events on a select dropdown. -->
+
+		<form>
+			<input type="text" placeholder="Enter your name" />
+			<select>
+				<option value="1">Option 1</option>
+				<option value="2">Option 2</option>
+				<option value="3">Option 3</option>
+			</select>
+			<button type="submit">Submit</button>
+		</form>
+
+		<p></p>
+
+		<script>
+			const form = document.querySelector("form");
+			const input = form.querySelector("input");
+			const select = form.querySelector("select");
+			const p = document.querySelector("p");
+
+			form.addEventListener("submit", (event) => {
+				event.preventDefault();
+
+				p.innerText = `Name: ${input.value}, Option: ${select.value}`;
+			});
+
+			select.addEventListener("change", () => {
+				p.innerText = `Name: ${input.value}, Option: ${select.value}`;
+			});
+		</script>
+	</body>
+</html>

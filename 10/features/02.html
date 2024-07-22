@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Create a script that handles mouseover and `mouseout events` to change the background color of an element. -->
+
+		<div
+			style="
+				width: 100px;
+				height: 100px;
+				background-color: lightblue;
+			"></div>
+
+		<script>
+			const div = document.querySelector("div");
+
+			div.addEventListener("mouseover", () => {
+				div.style.backgroundColor = "lightgreen";
+			});
+
+			div.addEventListener("mouseout", () => {
+				div.style.backgroundColor = "lightblue";
+			});
+		</script>
+	</body>
+</html>

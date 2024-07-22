@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Write a script that logs key presses and displays input field values using `keydown` and `keyup` event listeners. -->
+
+		<input type="text" />
+
+		<script>
+			const input = document.querySelector("input");
+
+			input.addEventListener("keydown", (event) => {
+				console.log(`Key down: ${event.key}`);
+			});
+
+			input.addEventListener("keyup", (event) => {
+				console.log(`Key up: ${event.key}`);
+			});
+		</script>
+	</body>
+</html>
